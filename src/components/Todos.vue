@@ -15,7 +15,7 @@
       @dblclick="onDblClick(todo)" 
       v-for="todo of allTodos" 
       :key="todo.id"
-      :class="{'is-complete':todo.complete}" 
+      :class="{'is-complete':todo.completed}" 
       class="todo">
       {{ todo.title }}
       <i class="fa fa-trash" @click="deleteTodo(todo.id)"></i>
@@ -36,7 +36,7 @@ export default {
         id: todo.id,
         title: todo.title,
         userId: todo.userId,
-        complete: !todo.complete
+        completed: !todo.completed
       }
       this.updateTodo(newTodo)
     }
@@ -87,7 +87,7 @@ i {
   display: inline-block;
   width: 10px;
   height: 10px;
-  background: #35495e;
+  background: #3CB371;
 }
 
 .incomplete-box {
@@ -98,7 +98,7 @@ i {
 }
 
 .is-complete {
-  background: #35495e;
+  background: #3CB371;
   color:#fff;
 }
 
