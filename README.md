@@ -10,10 +10,12 @@
 ```
 \# git clone https://github.com/Ay31/vuex-todo.git
 
-\# cd E:\MyGit\vuex-todo
+\# cd vuex-todo
 
 \# npm install
 
 \# npm run serve
 
 \# localhost:8081
+
+```
