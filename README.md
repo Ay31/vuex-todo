@@ -7,8 +7,8 @@
 
 ## Build Setup
 
-# git clone https://github.com/Ay31/vuex-todo.git
-# cd E:\MyGit\vuex-todo
-# npm install
-# npm run serve
-# localhost:8081
+/# git clone https://github.com/Ay31/vuex-todo.git
+/# cd E:\MyGit\vuex-todo
+/# npm install
+/# npm run serve
+/# localhost:8081
