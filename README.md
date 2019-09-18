@@ -1,5 +1,7 @@
 # vuex-todo
 
+
+![](https://github.com/Ay31/hello-world/blob/master/img/vuex-todo/01.PNG)
 ## Project setup
 ```
 npm install
